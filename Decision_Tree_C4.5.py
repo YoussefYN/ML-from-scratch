@@ -154,7 +154,7 @@ def predict(tree, fields, x):
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
-train_set = pd.read_csv('titanic_modified.csv')
+train_set = pd.read_csv('data/titanic_modified.csv')
 train_set = train_set.dropna()
 
 from sklearn.metrics import accuracy_score, classification_report

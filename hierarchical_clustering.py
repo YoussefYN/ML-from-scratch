@@ -155,7 +155,7 @@ def bottom_up_clustering(merge_func, X_matrix, distances_matrix, threshold=None)
 
 
 # importing the dataset
-dataset = pd.read_csv('Mall_Customers.csv')
+dataset = pd.read_csv('data/Mall_Customers.csv')
 dataset = dataset.dropna()
 X = dataset.iloc[:, [3, 4]].values
 

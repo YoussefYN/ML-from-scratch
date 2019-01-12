@@ -64,7 +64,7 @@ class BoostingTreeClassifier:
 
 
 # loading and pre-processing titanic data set
-titanic = pd.read_csv('titanic_modified.csv').dropna()
+titanic = pd.read_csv('data/titanic_modified.csv').dropna()
 data = titanic[['Pclass', 'Age', 'SibSp', 'Parch']].values
 labels = titanic.iloc[:, 6].values
 # changing labels so that we can apply boosting

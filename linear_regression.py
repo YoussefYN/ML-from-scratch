@@ -139,7 +139,7 @@ def rmse_metric(actual, predicted):
 
 
 # --------------------- Importing the dataset ---------------------
-dataset = pd.read_csv('Salary_Data.csv')
+dataset = pd.read_csv('data/Salary_Data.csv')
 
 X = dataset.iloc[:, 0]
 Y = dataset.iloc[:, 1]
